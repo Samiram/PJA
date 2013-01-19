@@ -1,0 +1,247 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background-image: url("../images/background.jpg");
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li {
+	display: inline-block;
+}
+
+
+#wrap {
+	width: 800px;
+	margin: 40px auto 20px auto;
+}
+
+header {
+	/*display: inline;*/
+	margin: 0 auto;
+	border: 1px solid gray;
+	background-color:#6B8E23;
+	font: 18pt Arial normal;
+	padding: 15px 10px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #333;
+	width: 300px;
+}
+
+
+footer {
+	text-align: center;
+	font: 12pt Arial bolder;
+	font-weight: bolder;
+	margin-top: 40px;
+	text-shadow: 1px 1px 3px #6B8E23;	
+	color: 	#fff;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px #6B8E23;	
+	color: 	#fff;
+}
+
+h1 { 
+	font-size: 18pt;
+	font-family: Helvetica;
+}
+
+h2 {
+	font-size: 12pt;
+	font-family: Verdana;
+	font-weight: normal;
+	line-height: 12pt;
+}
+
+.project { 
+	margin: 30px 0;
+	text-align: left;
+}
+
+.header {
+	background-image: url("../images/header.jpg");
+	color: #fff;
+	padding: 15px 20px;
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+h3 {
+	padding-left: 30px;
+	background: url("../images/project_logo.png") no-repeat left; 
+	font-family: Arial;
+}
+
+.project-buttons {
+	float: right;
+}
+
+.project-buttons img {
+	width: 20px;
+	margin-left: 10px;
+}
+
+
+.panel {
+	background-color: lightgray;
+	padding: 10px 10px;
+	border-right: 1px solid gray;
+	border-left: 1px solid gray;
+}
+
+.panel img {
+	float: left;
+	margin-right: 20px;
+}
+
+.panel input {
+	height: 30px;
+	/*line-height: 20px;*/
+	font-size: 12pt;
+	border: none;
+	box-shadow: 0px 0px 2px black;
+}
+
+.panel input[type="text"] {
+	width: 600px;
+	border-radius: 3px 0 0 3px;
+	padding-left: 5px;
+	float: left;
+}
+
+.panel input[type="submit"] {
+	width: 110px;
+	border-radius: 0 3px 3px 0;
+	background-color:	#228B22;
+	color: white;
+	text-shadow: 1px 1px 2px #333;
+}
+ 
+.tasks {
+	background-color: #fff;
+	/*border-radius: 0 0 15px 15px;*/
+	/*padding: 0 0 20px 0;*/
+	box-shadow: 1px 1px 1px #888;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+
+.tasks li {
+	border-top: 1px solid lightgray;
+}
+
+.tasks li:hover {
+	background-color: #FFEBCD;
+}
+
+.task-status, .task, .buttons {
+	padding: 15px 0;
+	text-align: center;
+	display: inline-block;
+}
+
+.task-status {
+	border-right: 1px solid lightgray;
+	width: 45px;
+}
+
+.task {
+	border-right: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+	text-align: left;
+	padding: 15px;
+	width: 560px;
+	font-family: Arial;
+}
+
+
+.deadline, .datepicker {
+	float: right;
+	font-size: 11pt;
+	color: gray;
+}
+
+.datepicker {
+	display: none;
+}
+
+.empty {
+	width: 100%;
+	border: none;
+}
+
+.task-done {
+	color: gray;
+	font-style: italic;
+	text-decoration: line-through;
+}
+
+.buttons {
+	width: 150px;
+	float: right;
+}
+
+.buttons img {
+	height: 15px;
+	padding: 0 3px;
+}
+
+.clear {
+	clear: both;
+}
+
+#project-managment {
+	margin: 30px 0;
+}
+
+.large-btn {
+	border: 1px solid gray;
+	border-left: none;
+	background-color:	#228B22;
+	font: 17pt Arial normal;
+	padding: 15px 10px;
+	border-radius: 0 10px 10px 0;
+	box-shadow: 1px 1px 3px 1px #333;
+	margin: 0;
+	float: left;
+	width: 200px; height: 67px;
+}
+
+.large-btn a {
+	color: #fff;
+	text-shadow: 1px 1px 2px #333;
+	width: 100%;
+	height: 100%;
+	outline: none;
+}
+
+.large-btn img {
+	float: left;
+	margin-right: 10px;
+}
+
+.add-project {
+	font-size: 28px;
+	width: 570px;
+	float: left;
+	padding: 15px 10px;
+	padding-left: 5px;
+	border-radius: 10px 0 0 10px;
+}
